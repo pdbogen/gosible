@@ -1,0 +1,8 @@
+- name: some_target_name
+  address: 127.0.0.1
+  port: 10022
+  user: root
+  credentialName: cred_name
+  tasks:
+  - set:
+      name: example_set

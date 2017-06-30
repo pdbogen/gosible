@@ -1,0 +1,55 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "mB0aLgTP+FRQOd8aCL+PORc/rkY=",
+			"path": "github.com/op/go-logging",
+			"revision": "970db520ece77730c7e4724c61121037378659d9",
+			"revisionTime": "2016-03-15T20:05:05Z",
+			"tree": true
+		},
+		{
+			"checksumSHA1": "MlEHIE/60sB86Lmf0MPTIXHzKzE=",
+			"path": "golang.org/x/crypto/curve25519",
+			"revision": "5ef0053f77724838734b6945dd364d3847e5de1d",
+			"revisionTime": "2017-06-29T04:06:47Z",
+			"tree": true
+		},
+		{
+			"checksumSHA1": "/Eo8u1SdsLch+vBcF0LyhCgWreM=",
+			"path": "golang.org/x/crypto/ed25519",
+			"revision": "5ef0053f77724838734b6945dd364d3847e5de1d",
+			"revisionTime": "2017-06-29T04:06:47Z",
+			"tree": true
+		},
+		{
+			"checksumSHA1": "LXFcVx8I587SnWmKycSDEq9yvK8=",
+			"path": "golang.org/x/crypto/ed25519/internal/edwards25519",
+			"revision": "5ef0053f77724838734b6945dd364d3847e5de1d",
+			"revisionTime": "2017-06-29T04:06:47Z",
+			"tree": true
+		},
+		{
+			"checksumSHA1": "iBhiBGthUbEbTGQx0MY/RMzbXPY=",
+			"path": "golang.org/x/crypto/ssh",
+			"revision": "5ef0053f77724838734b6945dd364d3847e5de1d",
+			"revisionTime": "2017-06-29T04:06:47Z",
+			"tree": true
+		},
+		{
+			"checksumSHA1": "GlVnY+OiodlEKgT7cegC3hdzxOo=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "90796e5a05ce440b41c768bd9af257005e470461",
+			"revisionTime": "2017-06-27T07:55:33Z"
+		},
+		{
+			"checksumSHA1": "fALlQNY1fM99NesfLJ50KguWsio=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b",
+			"revisionTime": "2017-04-07T17:21:22Z",
+			"tree": true
+		}
+	],
+	"rootPath": "github.com/pdbogen/gosible"
+}

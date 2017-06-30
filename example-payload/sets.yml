@@ -1,0 +1,29 @@
+- name: example_set
+  tasks:
+  - name: update apt
+    cmd:
+      cmd: apt-get update
+  - name: install nginx and php
+    package:
+      install: nginx php5-fpm
+      register: packages
+  - name: restart php
+    cmd:
+      when: packages
+      cmd: /etc/init.d/php5-fpm restart
+  - name: write nginx config
+    file:
+      source: nginx.conf
+      dest: /etc/nginx/sites-enabled/default
+      register: config
+  - name: restart nginx
+    cmd:
+      when: config or packages
+      cmd: /etc/init.d/nginx restart
+  - name: make /var/www
+    cmd:
+      cmd: mkdir -p /var/www/
+  - name: copy index.php
+    file:
+      source: index.php
+      dest: /var/www/index.php

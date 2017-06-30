@@ -2,7 +2,11 @@
 
 ## gosible
 
-Gosible is my go-based configuration management tool. As you might guess, it's modeled on ansible.
+Gosible is my go-based configuration management tool. As you might guess, it's 
+modeled on ansible. This is not used for anything real, even by the author. If 
+you use it for anything real, please expect that it will use your systems to 
+mine bitcoin, add things to your Netflix queue without permission, and eat all 
+of the cookies out of your kitchen. It will also probably not work.
 
 ## Testbed
 
